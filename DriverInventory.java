@@ -55,7 +55,7 @@ public class DriverInventory extends Configured implements Tool {
 	    
 	    
 	    job.setMapperClass(MapperInventory.class);
-	    //job.setReducerClass(ReducerInventory.class);
+	    job.setReducerClass(ReducerInventory.class);
 	    
 //	    job.setMapperClass(MapperInventory.class);
 //	    job.setReducerClass(ReducerInventory.class);
